@@ -1,0 +1,4 @@
+node_modules
+test/specs
+test/pageobjects
+wdio.local.conf1111.js
