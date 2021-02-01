@@ -10,6 +10,7 @@ When('I go to the wishlist page',() =>{
     SearchResultPage.openWishlist()
 }); 
 Then('I delete the product from my wishlist',()=>{
-    expect(WishlistPage.waitProductListDisplayed()).to.be.true;
+    expect(WishlistPage.waitFirstProductDisplayed()).to.be.true;
+    // expect(WishlistPage.waitProductListDisplayed()).to.be.true;
     WishlistPage.deleteProduct(0)
 }); 

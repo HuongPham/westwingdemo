@@ -129,11 +129,8 @@ export const hooksConfig = {
    */
   // beforeFeature(uri, feature, scenarios) {
   // },
-  beforeScenario(uri, feature, scenario, sourceLocation) {
-    if (browser.capabilities.browserName == "firefox"){
-      browser.pause(50000)
-    }
-  },
+  // beforeScenario(uri, feature, scenario, sourceLocation) {
+  // },
   // beforeStep(uri, feature, stepData, context) {
   // },
   afterStep(uri, feature, { error, result, duration, passed }, stepData, context): void {
