@@ -5,7 +5,7 @@ Scenario Outline: Searching a specific product to add into wishlist then delete 
     When I search for "möbel"
     Then I should see product listing page with a list of products
     When I click on wishlist icon of the first found product
-    Then I should see the login/registration overlay
+    Then I should see the login-registration overlay
     When I switch to login form of the overlay
     And I log in with "<user_name>" and "<password>" credentials
     Then The product should be added to the wishlist
