@@ -135,10 +135,7 @@ npm run test:vnc
 
 Note that even if you started selenium with VNC support, you need to run the `test:vnc` command to see the browsers visually.
 
-Debugging with VNC support is also possible. If you're using *Visual Studio Code* there are `VNC Debug current test` and 
-`VNC Debug all tests` debugging configurations that work similar to configurations described in [Debugging tests](#debugging-tests) section.  
-
-To stop the debug containers use the same command:
+To stop the vnc containers use the same command:
 
 ```sh
 npm run selenium:stop
